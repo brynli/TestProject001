@@ -9,7 +9,7 @@ public class Rotate : MonoBehaviour {
 	
 	void Update () 
     {
-        this.transform.Rotate(Vector3.up * Time.deltaTime * rotatingSpeed);
+        this.transform.Rotate(Vector3.up * Time.deltaTime * rotatingSpeed); // This is a comment from the Local repository
         this.transform.Rotate(Vector3.right * Time.deltaTime * rotatingSpeed);
     }
 }
