@@ -12,4 +12,6 @@ public class Rotate : MonoBehaviour {
         this.transform.Rotate(Vector3.up * Time.deltaTime * rotatingSpeed); // This is a comment from GitHub
         this.transform.Rotate(Vector3.right * Time.deltaTime * rotatingSpeed); // Second Comment from GitHub
     }
+	
+	// This is a comment added to Master !
 }
